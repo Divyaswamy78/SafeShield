@@ -1,0 +1,176 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding-bottom: 60px;
+}
+
+/* Header */
+
+.dashboard-header {
+  background: linear-gradient(135deg, #071a35, #12345b);
+  color: white;
+  padding: 55px 8%;
+}
+
+.dashboard-tag {
+  color: #7dd3fc;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.dashboard-header h1 {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.dashboard-header p {
+  font-size: 17px;
+  color: #d8e5f2;
+  margin: 0;
+}
+
+
+/* Progress Cards */
+
+.dashboard-progress {
+  width: 84%;
+  margin: -35px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  position: relative;
+}
+
+.progress-card {
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.progress-icon {
+  font-size: 35px;
+}
+
+.progress-card h3 {
+  margin: 0 0 5px;
+  font-size: 15px;
+  color: #64748b;
+}
+
+.progress-card h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #102a43;
+}
+
+
+/* Main Section */
+
+.dashboard-section {
+  width: 84%;
+  margin: auto;
+}
+
+.dashboard-section h2 {
+  font-size: 30px;
+  color: #102a43;
+  margin-bottom: 8px;
+}
+
+.section-subtitle {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+
+/* Dashboard Cards */
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.11);
+}
+
+.card-icon {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.dashboard-card h3 {
+  font-size: 21px;
+  color: #102a43;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+/* Buttons */
+
+.dashboard-card button {
+  background: #12345b;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.dashboard-card button:hover {
+  background: #0b2748;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .dashboard-header {
+    padding: 40px 6%;
+  }
+
+  .dashboard-header h1 {
+    font-size: 32px;
+  }
+
+  .dashboard-progress {
+    width: 88%;
+    grid-template-columns: 1fr;
+    margin-top: -20px;
+  }
+
+  .dashboard-section {
+    width: 88%;
+  }
+
+  .dashboard-cards {
+    grid-template-columns: 1fr;
+  }
+
+}

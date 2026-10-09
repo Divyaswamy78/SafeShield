@@ -1,0 +1,129 @@
+.admin-users-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding-bottom: 60px;
+}
+
+.admin-users-header {
+  background: linear-gradient(135deg, #071a35, #12345b);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.admin-users-header p {
+  color: #7dd3fc;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.admin-users-header h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.admin-users-header span {
+  color: #d8e5f2;
+  font-size: 16px;
+}
+
+.users-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.users-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.users-top h2 {
+  color: #102a43;
+  margin: 0;
+}
+
+.users-top a {
+  color: #12345b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.users-table-wrapper {
+  background: white;
+  border-radius: 16px;
+  overflow-x: auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.users-table th {
+  background: #12345b;
+  color: white;
+  padding: 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.users-table td {
+  padding: 16px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #475569;
+}
+
+.users-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.certificate-yes {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.certificate-no {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.users-message {
+  background: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 16px;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+
+  .admin-users-header h1 {
+    font-size: 32px;
+  }
+
+  .users-container {
+    width: 94%;
+  }
+
+  .users-top {
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .admin-role {
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+.user-role {
+  color: #64748b;
+  font-weight: 600;
+}
+
+}

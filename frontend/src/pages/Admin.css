@@ -1,0 +1,155 @@
+.admin-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding-bottom: 60px;
+}
+
+.admin-header {
+  background: linear-gradient(135deg, #071a35, #12345b);
+  color: white;
+  padding: 55px 8%;
+}
+
+.admin-tag {
+  color: #7dd3fc;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.admin-header h1 {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.admin-header p:last-child {
+  color: #d8e5f2;
+  font-size: 17px;
+  margin: 0;
+}
+
+.admin-content {
+  width: 84%;
+  margin: 40px auto;
+}
+
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 50px;
+}
+
+.admin-stat-card {
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.admin-stat-icon {
+  font-size: 38px;
+}
+
+.admin-stat-card span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.admin-stat-card h2 {
+  color: #102a43;
+  font-size: 28px;
+  margin: 5px 0 0;
+}
+
+.admin-section-title {
+  color: #102a43;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.admin-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.admin-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-card-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.admin-card h3 {
+  color: #102a43;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.admin-card p {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.admin-card button {
+  background: #12345b;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.admin-card button:hover {
+  background: #0b2748;
+}
+
+.admin-back {
+  margin-top: 35px;
+}
+
+.admin-back a {
+  color: #12345b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+  .admin-header {
+    padding: 40px 6%;
+  }
+
+  .admin-header h1 {
+    font-size: 32px;
+  }
+
+  .admin-content {
+    width: 88%;
+  }
+
+  .admin-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-cards {
+    grid-template-columns: 1fr;
+  }
+}

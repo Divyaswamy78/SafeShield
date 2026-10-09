@@ -1,0 +1,157 @@
+.certificate-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 60px 20px;
+}
+
+.certificate-container {
+  width: 85%;
+  max-width: 900px;
+  margin: auto;
+
+  background: white;
+
+  border: 8px solid #12345b;
+  border-radius: 10px;
+
+  padding: 55px;
+
+  text-align: center;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.certificate-logo {
+  font-size: 55px;
+  margin-bottom: 5px;
+}
+
+.certificate-brand {
+  color: #12345b;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.certificate-container h1 {
+  color: #102a43;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.certificate-text {
+  color: #64748b;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.certificate-name {
+  color: #12345b;
+  font-size: 34px;
+  margin: 18px 0;
+}
+
+.certificate-container h3 {
+  color: #102a43;
+  font-size: 22px;
+  margin: 18px 0 35px;
+}
+
+.certificate-details {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+
+  margin: 30px 0;
+  padding: 25px;
+
+  background: #f4f7fb;
+  border-radius: 12px;
+}
+
+.certificate-details div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.certificate-details span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.certificate-details strong {
+  color: #12345b;
+  font-size: 22px;
+}
+
+.certificate-footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 45px;
+  padding-top: 25px;
+
+  border-top: 1px solid #dbe3ec;
+}
+
+.certificate-footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.certificate-footer strong {
+  color: #102a43;
+}
+
+.certificate-footer span {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.certificate-button {
+  margin-top: 35px;
+
+  background: #12345b;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 22px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.certificate-button:hover {
+  background: #0b2748;
+}
+
+@media (max-width: 768px) {
+
+  .certificate-container {
+    width: 90%;
+    padding: 35px 20px;
+  }
+
+  .certificate-container h1 {
+    font-size: 30px;
+  }
+
+  .certificate-name {
+    font-size: 27px;
+  }
+
+  .certificate-details {
+    gap: 30px;
+  }
+
+  .certificate-footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
